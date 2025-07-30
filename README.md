@@ -1,5 +1,3 @@
-# 🚧 Em testes 🚧
-
 # Personal Expenses API
 ###
 Finances API é uma aplicação RESTful desenvolvida com ASP.NET Core 8 e Entity Framework Core, que permite o gerenciamento de despesas pessoais por meio de operações CRUD, categorização e filtragem por data.
