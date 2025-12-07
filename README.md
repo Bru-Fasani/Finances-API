@@ -102,4 +102,4 @@ Caso deseje criar novas migrations:
 <pre>dotnet ef database update</pre>
 ###
 📌 Autor(a)
-Desenvolvido por Bruna Fasani | Estudante de Engenharia de Software | Desenvolvedora .NET
+Desenvolvido por Bruna Fasani | Estudante de Engenharia da Computação | Desenvolvedora .NET
