@@ -36,21 +36,23 @@ Finances API é uma aplicação RESTful desenvolvida com ASP.NET Core 8 e Entity
 Finances_API/
 - ├── Controllers/
 - │   └── ExpensesController.cs
-- ├── Models/
+- ├── Domain/Entities
 - │   ├── Expense.cs
 - │   └── Category.cs
 - ├── DTO/
 - │   ├── CreateExpenseDTO.cs
 - │   ├── UpdateExpenseDTO.cs
 - │   └── ExpensesDTO.cs
-- ├── Profiles/
+- ├── Aplication/Interfaces
+- │   └──IExpenseRepository.cs
+- ├── Aplication/Mappings
 - │   └── ExpensesProfile.cs
-- ├── Data/
+- ├── Infrastructure/Data
 - │   └── AppDbContext.cs
-- ├── Repositories/
-- │   ├── IExpenseRepository.cs
-- │   └── ExpenseRepository.cs
+- ├──Middlewares/
+- │   └── ErrorHandlingMiddleware.cs
 - ├── appsettings.json
+- ├── DockerFile
 - └── Program.cs
 ###
 
